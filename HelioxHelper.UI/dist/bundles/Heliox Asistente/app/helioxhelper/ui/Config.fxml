@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="vBox" prefHeight="305.0" prefWidth="564.0" type="VBox" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="59.0" prefWidth="564.0">
+         <children>
+            <JFXTextField fx:id="audio" focusColor="#ffc107" labelFloat="true" maxWidth="564.0" minWidth="283.0" prefHeight="70.0" prefWidth="563.0" style="-fx-padding: 15;" unFocusColor="#bdbdbd" />
+         </children>
+      </HBox>
+      <HBox prefHeight="55.0" prefWidth="564.0">
+         <children>
+            <JFXTextField fx:id="ejecutable" focusColor="#ffc107" labelFloat="true" maxWidth="564.0" minWidth="423.0" prefHeight="58.0" prefWidth="564.0" style="-fx-padding: 15;" unFocusColor="#bdbdbd">
+               <font>
+                  <Font name="Roboto" size="12.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="68.0" prefWidth="564.0">
+         <children>
+            <JFXTextField fx:id="icono" focusColor="#ffc107" labelFloat="true" maxWidth="564.0" minWidth="422.0" prefHeight="66.0" prefWidth="563.0" style="-fx-padding: 15;" unFocusColor="#bdbdbd" />
+         </children>
+      </HBox>
+      <HBox prefHeight="64.0" prefWidth="564.0">
+         <children>
+            <JFXTextField fx:id="lenguaje" focusColor="#ffc107" labelFloat="true" maxWidth="564.0" minWidth="422.0" prefHeight="54.0" prefWidth="563.0" style="-fx-padding: 15;" unFocusColor="#bdbdbd" />
+         </children>
+      </HBox>
+      <HBox prefHeight="68.0" prefWidth="564.0">
+         <children>
+            <JFXTextField fx:id="boton" focusColor="#ffc107" labelFloat="true" maxWidth="564.0" minWidth="422.0" prefHeight="31.0" prefWidth="563.0" style="-fx-padding: 15;" unFocusColor="#bdbdbd" />
+         </children>
+      </HBox>
+   </children>
+</fx:root>

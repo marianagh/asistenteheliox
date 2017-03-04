@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="helioxhelper.ui.AcercaController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="632.0">
+         <children>
+            <JFXToolbar prefHeight="84.0" prefWidth="715.0" style="-fx-background-color: gray;">
+               <center>
+                  <Label prefHeight="79.0" prefWidth="677.0" text="Acerca de - Asistente Heliox" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Roboto" size="24.0" />
+                     </font>
+                  </Label>
+               </center>
+            </JFXToolbar>
+            <JFXTabPane layoutY="84.0" prefHeight="431.0" prefWidth="715.0">
+               <tabs>
+                  <Tab text="Créditos">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="867.0">
+                           <children>
+                              <VBox layoutX="28.0" layoutY="26.0" prefHeight="348.0" prefWidth="659.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="43.0" prefWidth="659.0">
+                                       <children>
+                                          <Label text="Dr. Roberto Feltrero Oreja - Mariana García - Kevin Ruiz">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Hyperlink fx:id="linkProyecto" onAction="#openLinkProyecto" text="http://proyectoheliox.org">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="50.0" prefWidth="659.0">
+                                       <children>
+                                          <Label text="Promovido por el INALI: Instituto Nacional de Lenguas Indígenas - ">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Hyperlink fx:id="linkInali" onAction="#openLinkInali" text="http://inali.gob.mx">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="102.0" prefWidth="659.0">
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="134.0" prefWidth="668.0">
+                                             <children>
+                                                <Label prefHeight="66.0" prefWidth="612.0" text="Proyecto CONACYT  Proyecto CONACYT 228854, “Innovación educativa y apropiación social del conocimiento: Un modelo para la enseñanza de las ciencias en contextos interculturales” Responsable: León Olivé Morett" textAlignment="CENTER" wrapText="true">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <Label>
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="50.0" prefWidth="659.0">
+                                       <children>
+                                          <Label text="Este software se distribuye según los terminos de la licencia GPL 2.">
+                                             <font>
+                                                <Font name="System Italic" size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="128.0" prefWidth="659.0">
+                                       <children>
+                                          <ImageView fitHeight="120.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../icons/icon.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Traducciones">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox layoutX="30.0" layoutY="12.0" prefHeight="374.0" prefWidth="659.0">
+                                 <children>
+                                    <HBox prefHeight="60.0" prefWidth="659.0">
+                                       <children>
+                                          <ImageView fitHeight="63.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" />
+                                          <Label prefHeight="54.0" prefWidth="659.0" text="Maya - Karina Puc Balam ">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="54.0" prefWidth="659.0" text="Nahuatl - Fausto Aguilar Dominguez">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="54.0" prefWidth="659.0" text="Quechua - Chuctaya Alccama">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="54.0" prefWidth="659.0" text="Mixe - Maribel Martinez Macario y Yasnaya Aguilar Gil">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="54.0" prefWidth="659.0" text="Español - Fernando Dupotec Herrera ">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+               </tabs>
+            </JFXTabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

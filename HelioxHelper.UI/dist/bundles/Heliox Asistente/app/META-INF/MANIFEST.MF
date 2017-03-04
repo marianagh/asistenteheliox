@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Heliox Asistente
+X-COMMENT: Main-Class will be added automatically by build
+Implementation-Version: 2.0.5
+Permissions: sandbox
+Codebase: *
+JavaFX-Version: 8.0
+Class-Path: lib/HelioxHelper.Nucleo.jar lib/derby.jar lib/jfoenix.jar 
+ lib/jogg-0.0.7.jar lib/jorbis-0.0.15.jar lib/tritonus_share.jar lib/v
+ orbisspi1.0.3.jar
+Created-By: JavaFX Packager
+Implementation-Vendor: Proyecto Heliox
+Main-Class: helioxhelper.ui.HelioxAsistente
+
